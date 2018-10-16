@@ -1,7 +1,3 @@
-open Utils;
-
-requireCSS("./App.css");
-
 let component = ReasonReact.statelessComponent("App");
 
 let make = _children => {
