@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.bs.js": true,
+    "**/.bsb.lock": true,
+    ".merlin": true,
+    ".cache": true,
+    "lib": true,
+    "dist": true
+  }
+}
