@@ -1,26 +1,10 @@
+type btnSize = Size.size;
 type state = {btnRef: ref(option(Dom.element))};
 
 type action =
-  | SetRef
-  | Toggle;
+  | SetRef;
 
 let component = ReasonReact.reducerComponent("Button");
-
-type btnSize =
-  | XS
-  | SM
-  | MD
-  | LG
-  | XL;
-
-let getSize = size =>
-  switch (size) {
-  | XS => "xs"
-  | SM => "sm"
-  | MD => "md"
-  | LG => "lg"
-  | XL => "xl"
-  };
 
 let make =
     (
@@ -32,10 +16,12 @@ let make =
       ~outline=false,
       ~flat=false,
       ~loading=false,
+      ~disabled=false,
       ~href=?,
-      ~size: btnSize=MD,
+      ~size: btnSize=Size.Medium,
       ~icon: string="",
       ~autofocus=false,
+      ~onClick=?,
       _children,
     ) => {
   ...component,
@@ -43,7 +29,6 @@ let make =
   reducer: (action, _) =>
     switch (action) {
     | SetRef => ReasonReact.NoUpdate
-    | Toggle => ReasonReact.NoUpdate
     },
   didMount: self =>
     switch (self.state.btnRef^) {
@@ -62,7 +47,7 @@ let make =
       outline ? "c-button--outline" : "",
       flat ? "c-button--flat" : "",
       loading ? "c-button--loading" : "",
-      "c-button--" ++ getSize(size),
+      "c-button--" ++ Size.toLiteral(size),
     ];
 
     let className =
@@ -92,9 +77,10 @@ let make =
       };
 
     switch (href) {
-    | None => <button className ref={self.handle(setBtnRef)}> frag </button>
+    | None =>
+      <button onClick=?onClick className disabled ref={self.handle(setBtnRef)}> frag </button>
     | Some(s) =>
-      <button className onClick=(_ => ReasonReact.Router.push(s))>
+      <button className disabled onClick=(_ => ReasonReact.Router.push(s))>
         frag
       </button>
     };
@@ -112,27 +98,23 @@ type jsProps = {
   flat: Js.nullable(bool),
   loading: Js.nullable(bool),
   href: Js.nullable(string),
-  size: string,
+  size: Js.nullable(string),
   icon: Js.nullable(string),
   autofocus: Js.nullable(bool),
 };
 
-let jsComponent =
+let default =
   ReasonReact.wrapReasonForJs(
     ~component,
     jsProps => {
-      let size =
-        switch (jsProps->sizeGet) {
-        | "xs" => XS
-        | "sm" => SM
-        | "md" => MD
-        | "lg" => LG
-        | "xl" => XL
-        | _ => MD
-        };
-      Js.log("xx");
+      let size = Js.Nullable.toOption(jsProps->sizeGet);
+
       make(
-        ~size,
+        ~size=
+          switch (size) {
+          | None => Size.Medium
+          | Some(str) => Size.fromLiteral(str)
+          },
         ~href=?Js.Nullable.toOption(jsProps->hrefGet),
         ~primary=?Js.Nullable.toOption(jsProps->primaryGet),
         ~success=?Js.Nullable.toOption(jsProps->successGet),
@@ -147,3 +129,19 @@ let jsComponent =
       );
     },
   );
+
+module Group = {
+  let component = ReasonReact.statelessComponent("Button.Group");
+  let make = (~size=?, _children) => {
+    ...component,
+    render: _ => {
+      let className =
+        switch (size) {
+        | None => "c-button-group"
+        | Some(size) =>
+          "c-button-group is-" ++ Size.toLiteral(size)
+        };
+      <div className> ..._children </div>;
+    },
+  };
+};

@@ -1,4 +1,5 @@
 {
+  "editor.fontSize": 16,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,

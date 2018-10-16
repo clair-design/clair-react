@@ -107,7 +107,7 @@ let make = _children => {
         </Button>
       </p>
       <p>
-        <Button danger loading=true size=XL autofocus=true>
+        <Button danger loading=true size=Size.Large autofocus=true>
           {ReasonReact.string({j|危险操作|j})}
         </Button>
         <Button danger round>

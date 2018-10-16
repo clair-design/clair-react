@@ -9,7 +9,9 @@
     "clean": "rimraf .cache lib dist .merlin && bsb -clean-world",
     "watch-html": "parcel ./index.html",
     "watch-reason": "bsb -make-world -w",
-    "prestart": "node ./feather.build.js && npx bsrefmt ./src/Feather.re --in-place"
+    "prestart": "node ./feather.build.js && npx bsrefmt ./src/Feather.re --in-place",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "react": "^16.4.2",
@@ -19,9 +21,16 @@
   },
   "devDependencies": {
     "bs-platform": "^4.0.5",
+    "bs-storybook": "^0.2.0",
     "bsb-js": "^1.1.7",
     "concurrently": "^3.6.1",
     "parcel-bundler": "^1.9.7",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "@storybook/react": "^3.4.11",
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/addons": "^3.4.11",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0"
   }
 }
