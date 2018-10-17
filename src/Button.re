@@ -68,7 +68,10 @@ let make =
             ReasonReact.null :
             <Icon color="currentColor" name=iconName valign="middle" />
         }
-        <span> ..._children </span>
+        {
+          Array.length(_children) > 0 ?
+            <span> ..._children </span> : ReasonReact.null
+        }
       </>;
     let setBtnRef = (theRef, {ReasonReact.state}) =>
       if (autofocus) {
@@ -108,7 +111,7 @@ type jsProps = {
   icon: Js.nullable(string),
   autofocus: Js.nullable(bool),
   onClick: Js.nullable(ReactEvent.Mouse.t => unit),
-  children: array(ReasonReact.reactElement),
+  children: Js.nullable(array(ReasonReact.reactElement)),
 };
 
 let default =
@@ -116,7 +119,11 @@ let default =
     ~component,
     jsProps => {
       let size = Js.Nullable.toOption(jsProps->sizeGet);
-
+      let children =
+        switch (Js.Nullable.toOption(jsProps->childrenGet)) {
+        | None => [||]
+        | Some(children) => children
+        };
       make(
         ~size=
           switch (size) {
@@ -136,7 +143,7 @@ let default =
         ~icon=?Js.Nullable.toOption(jsProps->iconGet),
         ~autofocus=?Js.Nullable.toOption(jsProps->autofocusGet),
         ~onClick=?Js.Nullable.toOption(jsProps->onClickGet),
-        jsProps->childrenGet,
+        children,
       );
     },
   );
