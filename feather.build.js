@@ -11,18 +11,24 @@ const ffi = keys
   .map(name => {
     let path = name.toLowerCase() === 'typpe' ? 'type' : name
     return `[@bs.module "react-feather/dist/icons/${_.kebabCase(path)}.js"]
-external ${name}: ReasonReact.reactClass = "default";`
+external _${name}: ReasonReact.reactClass = "default";`
   })
   .join('\n')
 
 const content = `${ffi}
-let featherNotFound = ReasonReact.statelessComponent("FeatherNotFound");
+let _iconMap = Js.Dict.empty();
+let _component = ReasonReact.statelessComponent("FeatherNotFound");
+
+${keys.map(name => `let ${name} = "${name}";`).join('\n')}
+${keys.map(name => `Js.Dict.set(_iconMap, ${name}, _${name});`).join('\n')}
 
 [@bs.deriving abstract]
 type jsProps = {
   color: string,
   size: Js.nullable(string),
 };
+
+let featherIcons = Js.Dict.keys(_iconMap);
 
 let make = (~name: string, ~color: string, ~size=?, _children) => {
   let wrap = myJSReactClass =>
@@ -31,14 +37,27 @@ let make = (~name: string, ~color: string, ~size=?, _children) => {
       ~props=jsProps(~color, ~size=Js.Nullable.fromOption(size)),
       _children,
     );
-  switch (name) {
-${keys.map(name => `  | "${name}" => wrap(${name})`).join('\n')}
-  | _ => {
-    ...featherNotFound,
+
+  switch (Js.Dict.get(_iconMap, name)) {
+  | Some(jsReactClass) => wrap(jsReactClass)
+  | None => {
+    ..._component,
     render: _ => <em>{ReasonReact.string("FeatherNotFound")}</em>
   }
   }
 }
 `
 
+const reiContent = `
+${keys.map(name => `let ${name}: string;`).join('\n')}
+let make: ( ~name: string, ~color: string, ~size: string = ?, 'a) => ReasonReact.component(
+  ReasonReact.stateless,
+  ReasonReact.noRetainedProps,
+  ReasonReact.actionless
+);
+
+let featherIcons: array(string);
+`
+
 writeFileSync('./src/Feather.re', content)
+writeFileSync('./src/Feather.rei', reiContent)

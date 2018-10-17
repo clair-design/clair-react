@@ -19,7 +19,9 @@ let make =
     };
     let iconColor =
       if (color === "") {
-        isSvg ? "currentColor" : "inherit";
+        /* TODO currentColor => currentcolor */
+        isSvg ?
+          "currentColor" : "inherit";
       } else {
         color;
       };
@@ -31,6 +33,7 @@ let make =
         ~verticalAlign=valign,
         (),
       );
+
     if (ligature) {
       <i style className=classNames> {ReasonReact.string(name)} </i>;
     } else if (isSvg) {
@@ -43,3 +46,26 @@ let make =
     };
   },
 };
+
+[@bs.deriving abstract]
+type jsProps = {
+  name: string,
+  type_: Js.nullable(string),
+  size: Js.nullable(string),
+  valign: Js.nullable(string),
+  color: Js.nullable(string),
+  ligature: Js.nullable(bool),
+};
+
+let default =
+  ReasonReact.wrapReasonForJs(~component, jsProps =>
+    make(
+      ~name=jsProps->nameGet,
+      ~type_=?Js.Nullable.toOption(jsProps->type_Get),
+      ~size=?Js.Nullable.toOption(jsProps->sizeGet),
+      ~valign=?Js.Nullable.toOption(jsProps->valignGet),
+      ~color=?Js.Nullable.toOption(jsProps->colorGet),
+      ~ligature=?Js.Nullable.toOption(jsProps->ligatureGet),
+      [||],
+    )
+  );

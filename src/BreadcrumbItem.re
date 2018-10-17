@@ -1,7 +1,8 @@
-let component = ReasonReact.statelessComponent("Divider");
+let component = ReasonReact.statelessComponent("Breadcrumb.Item");
+
 let make = _children => {
   ...component,
-  render: _ => <div className="flex-center"> <div> ..._children </div> </div>,
+  render: _ => <div className="c-breadcrumb__item"> ..._children </div>,
 };
 
 [@bs.deriving abstract]

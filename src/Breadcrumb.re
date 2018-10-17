@@ -1,22 +1,14 @@
 module Divider = {
   let component = ReasonReact.statelessComponent("Divider");
 
-  let make = (~divider="", _children) => {
+  let make = (~divider, _children) => {
     ...component,
-    render: _ =>
-      <i className="c-breadcrumb__divider">
-        {ReasonReact.string(divider)}
-      </i>,
+    render: _ => <i className="c-breadcrumb__divider"> divider </i>,
   };
 };
 
 module Item = {
-  let component = ReasonReact.statelessComponent("Breadcrumb.Item");
-
-  let make = _children => {
-    ...component,
-    render: _ => <div className="c-breadcrumb__item"> ..._children </div>,
-  };
+  include BreadcrumbItem;
 };
 
 let component = ReasonReact.statelessComponent("Breadcrumb");
@@ -24,7 +16,7 @@ let component = ReasonReact.statelessComponent("Breadcrumb");
 let make = (~divider="/", _children) => {
   ...component,
   render: _ => {
-    let sep = <Divider divider />;
+    let sep = <Divider divider={ReasonReact.string(divider)} />;
 
     let start = ref(0);
     let len = Array.length(_children);
@@ -46,3 +38,17 @@ let make = (~divider="/", _children) => {
     <nav className="c-breadcrumb"> ...children </nav>;
   },
 };
+
+[@bs.deriving abstract]
+type jsProps = {
+  divider: Js.nullable(string),
+  children: array(ReasonReact.reactElement),
+};
+
+let default =
+  ReasonReact.wrapReasonForJs(~component, jsProps =>
+    make(
+      ~divider=?Js.Nullable.toOption(jsProps->dividerGet),
+      jsProps->childrenGet,
+    )
+  );

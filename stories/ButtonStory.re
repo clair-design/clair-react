@@ -2,7 +2,7 @@
 open BsStorybook.Story;
 
 let _module = [%bs.raw "module"];
-[@bs.val] external alert : string => unit = "alert";
+[@bs.val] external alert: string => unit = "alert";
 
 let flat = true;
 let primary = true;
@@ -186,7 +186,12 @@ storiesOf("Button", _module)
 ->(
     add("event", () =>
       <Stage>
-        <Button primary outline icon="heart" onClick={_ => alert("Clicked")} />
+        <Button
+          primary
+          outline
+          icon="heart"
+          onClick={_ => alert("Clicked")}
+        />
       </Stage>
     )
-  )
+  );

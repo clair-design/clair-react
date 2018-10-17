@@ -1,4 +1,3 @@
-type btnSize = Size.size;
 type state = {btnRef: ref(option(Dom.element))};
 
 type action =
@@ -18,7 +17,7 @@ let make =
       ~loading=false,
       ~disabled=false,
       ~href=?,
-      ~size: btnSize=Size.Medium,
+      ~size: Size.size=Size.Medium,
       ~icon: string="",
       ~autofocus=false,
       ~onClick=?,
@@ -47,7 +46,7 @@ let make =
       outline ? "c-button--outline" : "",
       flat ? "c-button--flat" : "",
       loading ? "c-button--loading" : "",
-      "c-button--" ++ Size.toLiteral(size),
+      "is-" ++ Size.toLiteral(size),
     ];
 
     let className =
@@ -78,13 +77,19 @@ let make =
 
     switch (href) {
     | None =>
-      <button onClick=?onClick className disabled ref={self.handle(setBtnRef)}> frag </button>
+      <button ?onClick className disabled ref={self.handle(setBtnRef)}>
+        frag
+      </button>
     | Some(s) =>
       <button className disabled onClick=(_ => ReasonReact.Router.push(s))>
         frag
       </button>
     };
   },
+};
+
+module Group = {
+  include ButtonGroup;
 };
 
 [@bs.deriving abstract]
@@ -97,10 +102,13 @@ type jsProps = {
   outline: Js.nullable(bool),
   flat: Js.nullable(bool),
   loading: Js.nullable(bool),
+  disabled: Js.nullable(bool),
   href: Js.nullable(string),
   size: Js.nullable(string),
   icon: Js.nullable(string),
   autofocus: Js.nullable(bool),
+  onClick: Js.nullable(ReactEvent.Mouse.t => unit),
+  children: array(ReasonReact.reactElement),
 };
 
 let default =
@@ -124,24 +132,11 @@ let default =
         ~outline=?Js.Nullable.toOption(jsProps->outlineGet),
         ~flat=?Js.Nullable.toOption(jsProps->flatGet),
         ~loading=?Js.Nullable.toOption(jsProps->loadingGet),
+        ~disabled=?Js.Nullable.toOption(jsProps->disabledGet),
+        ~icon=?Js.Nullable.toOption(jsProps->iconGet),
         ~autofocus=?Js.Nullable.toOption(jsProps->autofocusGet),
-        [||],
+        ~onClick=?Js.Nullable.toOption(jsProps->onClickGet),
+        jsProps->childrenGet,
       );
     },
   );
-
-module Group = {
-  let component = ReasonReact.statelessComponent("Button.Group");
-  let make = (~size=?, _children) => {
-    ...component,
-    render: _ => {
-      let className =
-        switch (size) {
-        | None => "c-button-group"
-        | Some(size) =>
-          "c-button-group is-" ++ Size.toLiteral(size)
-        };
-      <div className> ..._children </div>;
-    },
-  };
-};

@@ -1,542 +1,1078 @@
 [@bs.module "react-feather/dist/icons/activity.js"]
-external activity: ReasonReact.reactClass = "default";
+external _activity: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/airplay.js"]
-external airplay: ReasonReact.reactClass = "default";
+external _airplay: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/alert-circle.js"]
-external alertCircle: ReasonReact.reactClass = "default";
+external _alertCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/alert-octagon.js"]
-external alertOctagon: ReasonReact.reactClass = "default";
+external _alertOctagon: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/alert-triangle.js"]
-external alertTriangle: ReasonReact.reactClass = "default";
+external _alertTriangle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/align-center.js"]
-external alignCenter: ReasonReact.reactClass = "default";
+external _alignCenter: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/align-justify.js"]
-external alignJustify: ReasonReact.reactClass = "default";
+external _alignJustify: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/align-left.js"]
-external alignLeft: ReasonReact.reactClass = "default";
+external _alignLeft: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/align-right.js"]
-external alignRight: ReasonReact.reactClass = "default";
+external _alignRight: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/anchor.js"]
-external anchor: ReasonReact.reactClass = "default";
+external _anchor: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/aperture.js"]
-external aperture: ReasonReact.reactClass = "default";
+external _aperture: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/archive.js"]
-external archive: ReasonReact.reactClass = "default";
+external _archive: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-down-circle.js"]
-external arrowDownCircle: ReasonReact.reactClass = "default";
+external _arrowDownCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-down-left.js"]
-external arrowDownLeft: ReasonReact.reactClass = "default";
+external _arrowDownLeft: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-down-right.js"]
-external arrowDownRight: ReasonReact.reactClass = "default";
+external _arrowDownRight: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-down.js"]
-external arrowDown: ReasonReact.reactClass = "default";
+external _arrowDown: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-left-circle.js"]
-external arrowLeftCircle: ReasonReact.reactClass = "default";
+external _arrowLeftCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-left.js"]
-external arrowLeft: ReasonReact.reactClass = "default";
+external _arrowLeft: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-right-circle.js"]
-external arrowRightCircle: ReasonReact.reactClass = "default";
+external _arrowRightCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-right.js"]
-external arrowRight: ReasonReact.reactClass = "default";
+external _arrowRight: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-up-circle.js"]
-external arrowUpCircle: ReasonReact.reactClass = "default";
+external _arrowUpCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-up-left.js"]
-external arrowUpLeft: ReasonReact.reactClass = "default";
+external _arrowUpLeft: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-up-right.js"]
-external arrowUpRight: ReasonReact.reactClass = "default";
+external _arrowUpRight: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/arrow-up.js"]
-external arrowUp: ReasonReact.reactClass = "default";
+external _arrowUp: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/at-sign.js"]
-external atSign: ReasonReact.reactClass = "default";
+external _atSign: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/award.js"]
-external award: ReasonReact.reactClass = "default";
+external _award: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/bar-chart-2.js"]
-external barChart2: ReasonReact.reactClass = "default";
+external _barChart2: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/bar-chart.js"]
-external barChart: ReasonReact.reactClass = "default";
+external _barChart: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/battery-charging.js"]
-external batteryCharging: ReasonReact.reactClass = "default";
+external _batteryCharging: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/battery.js"]
-external battery: ReasonReact.reactClass = "default";
+external _battery: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/bell-off.js"]
-external bellOff: ReasonReact.reactClass = "default";
+external _bellOff: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/bell.js"]
-external bell: ReasonReact.reactClass = "default";
+external _bell: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/bluetooth.js"]
-external bluetooth: ReasonReact.reactClass = "default";
+external _bluetooth: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/bold.js"]
-external bold: ReasonReact.reactClass = "default";
+external _bold: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/book-open.js"]
-external bookOpen: ReasonReact.reactClass = "default";
+external _bookOpen: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/book.js"]
-external book: ReasonReact.reactClass = "default";
+external _book: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/bookmark.js"]
-external bookmark: ReasonReact.reactClass = "default";
+external _bookmark: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/box.js"]
-external box: ReasonReact.reactClass = "default";
+external _box: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/briefcase.js"]
-external briefcase: ReasonReact.reactClass = "default";
+external _briefcase: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/calendar.js"]
-external calendar: ReasonReact.reactClass = "default";
+external _calendar: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/camera-off.js"]
-external cameraOff: ReasonReact.reactClass = "default";
+external _cameraOff: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/camera.js"]
-external camera: ReasonReact.reactClass = "default";
+external _camera: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/cast.js"]
-external cast: ReasonReact.reactClass = "default";
+external _cast: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/check-circle.js"]
-external checkCircle: ReasonReact.reactClass = "default";
+external _checkCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/check-square.js"]
-external checkSquare: ReasonReact.reactClass = "default";
+external _checkSquare: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/check.js"]
-external check: ReasonReact.reactClass = "default";
+external _check: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/chevron-down.js"]
-external chevronDown: ReasonReact.reactClass = "default";
+external _chevronDown: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/chevron-left.js"]
-external chevronLeft: ReasonReact.reactClass = "default";
+external _chevronLeft: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/chevron-right.js"]
-external chevronRight: ReasonReact.reactClass = "default";
+external _chevronRight: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/chevron-up.js"]
-external chevronUp: ReasonReact.reactClass = "default";
+external _chevronUp: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/chevrons-down.js"]
-external chevronsDown: ReasonReact.reactClass = "default";
+external _chevronsDown: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/chevrons-left.js"]
-external chevronsLeft: ReasonReact.reactClass = "default";
+external _chevronsLeft: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/chevrons-right.js"]
-external chevronsRight: ReasonReact.reactClass = "default";
+external _chevronsRight: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/chevrons-up.js"]
-external chevronsUp: ReasonReact.reactClass = "default";
+external _chevronsUp: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/chrome.js"]
-external chrome: ReasonReact.reactClass = "default";
+external _chrome: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/circle.js"]
-external circle: ReasonReact.reactClass = "default";
+external _circle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/clipboard.js"]
-external clipboard: ReasonReact.reactClass = "default";
+external _clipboard: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/clock.js"]
-external clock: ReasonReact.reactClass = "default";
+external _clock: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/cloud-drizzle.js"]
-external cloudDrizzle: ReasonReact.reactClass = "default";
+external _cloudDrizzle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/cloud-lightning.js"]
-external cloudLightning: ReasonReact.reactClass = "default";
+external _cloudLightning: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/cloud-off.js"]
-external cloudOff: ReasonReact.reactClass = "default";
+external _cloudOff: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/cloud-rain.js"]
-external cloudRain: ReasonReact.reactClass = "default";
+external _cloudRain: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/cloud-snow.js"]
-external cloudSnow: ReasonReact.reactClass = "default";
+external _cloudSnow: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/cloud.js"]
-external cloud: ReasonReact.reactClass = "default";
+external _cloud: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/code.js"]
-external code: ReasonReact.reactClass = "default";
+external _code: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/codepen.js"]
-external codepen: ReasonReact.reactClass = "default";
+external _codepen: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/command.js"]
-external command: ReasonReact.reactClass = "default";
+external _command: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/compass.js"]
-external compass: ReasonReact.reactClass = "default";
+external _compass: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/copy.js"]
-external copy: ReasonReact.reactClass = "default";
+external _copy: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/corner-down-left.js"]
-external cornerDownLeft: ReasonReact.reactClass = "default";
+external _cornerDownLeft: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/corner-down-right.js"]
-external cornerDownRight: ReasonReact.reactClass = "default";
+external _cornerDownRight: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/corner-left-down.js"]
-external cornerLeftDown: ReasonReact.reactClass = "default";
+external _cornerLeftDown: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/corner-left-up.js"]
-external cornerLeftUp: ReasonReact.reactClass = "default";
+external _cornerLeftUp: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/corner-right-down.js"]
-external cornerRightDown: ReasonReact.reactClass = "default";
+external _cornerRightDown: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/corner-right-up.js"]
-external cornerRightUp: ReasonReact.reactClass = "default";
+external _cornerRightUp: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/corner-up-left.js"]
-external cornerUpLeft: ReasonReact.reactClass = "default";
+external _cornerUpLeft: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/corner-up-right.js"]
-external cornerUpRight: ReasonReact.reactClass = "default";
+external _cornerUpRight: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/cpu.js"]
-external cpu: ReasonReact.reactClass = "default";
+external _cpu: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/credit-card.js"]
-external creditCard: ReasonReact.reactClass = "default";
+external _creditCard: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/crop.js"]
-external crop: ReasonReact.reactClass = "default";
+external _crop: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/crosshair.js"]
-external crosshair: ReasonReact.reactClass = "default";
+external _crosshair: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/database.js"]
-external database: ReasonReact.reactClass = "default";
+external _database: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/delete.js"]
-external delete: ReasonReact.reactClass = "default";
+external _delete: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/disc.js"]
-external disc: ReasonReact.reactClass = "default";
+external _disc: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/dollar-sign.js"]
-external dollarSign: ReasonReact.reactClass = "default";
+external _dollarSign: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/download-cloud.js"]
-external downloadCloud: ReasonReact.reactClass = "default";
+external _downloadCloud: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/download.js"]
-external download: ReasonReact.reactClass = "default";
+external _download: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/droplet.js"]
-external droplet: ReasonReact.reactClass = "default";
+external _droplet: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/edit-2.js"]
-external edit2: ReasonReact.reactClass = "default";
+external _edit2: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/edit-3.js"]
-external edit3: ReasonReact.reactClass = "default";
+external _edit3: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/edit.js"]
-external edit: ReasonReact.reactClass = "default";
+external _edit: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/external-link.js"]
-external externalLink: ReasonReact.reactClass = "default";
+external _externalLink: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/eye-off.js"]
-external eyeOff: ReasonReact.reactClass = "default";
+external _eyeOff: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/eye.js"]
-external eye: ReasonReact.reactClass = "default";
+external _eye: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/facebook.js"]
-external facebook: ReasonReact.reactClass = "default";
+external _facebook: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/fast-forward.js"]
-external fastForward: ReasonReact.reactClass = "default";
+external _fastForward: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/feather.js"]
-external feather: ReasonReact.reactClass = "default";
+external _feather: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/file-minus.js"]
-external fileMinus: ReasonReact.reactClass = "default";
+external _fileMinus: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/file-plus.js"]
-external filePlus: ReasonReact.reactClass = "default";
+external _filePlus: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/file-text.js"]
-external fileText: ReasonReact.reactClass = "default";
+external _fileText: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/file.js"]
-external file: ReasonReact.reactClass = "default";
+external _file: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/film.js"]
-external film: ReasonReact.reactClass = "default";
+external _film: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/filter.js"]
-external filter: ReasonReact.reactClass = "default";
+external _filter: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/flag.js"]
-external flag: ReasonReact.reactClass = "default";
+external _flag: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/folder-minus.js"]
-external folderMinus: ReasonReact.reactClass = "default";
+external _folderMinus: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/folder-plus.js"]
-external folderPlus: ReasonReact.reactClass = "default";
+external _folderPlus: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/folder.js"]
-external folder: ReasonReact.reactClass = "default";
+external _folder: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/gift.js"]
-external gift: ReasonReact.reactClass = "default";
+external _gift: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/git-branch.js"]
-external gitBranch: ReasonReact.reactClass = "default";
+external _gitBranch: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/git-commit.js"]
-external gitCommit: ReasonReact.reactClass = "default";
+external _gitCommit: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/git-merge.js"]
-external gitMerge: ReasonReact.reactClass = "default";
+external _gitMerge: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/git-pull-request.js"]
-external gitPullRequest: ReasonReact.reactClass = "default";
+external _gitPullRequest: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/github.js"]
-external github: ReasonReact.reactClass = "default";
+external _github: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/gitlab.js"]
-external gitlab: ReasonReact.reactClass = "default";
+external _gitlab: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/globe.js"]
-external globe: ReasonReact.reactClass = "default";
+external _globe: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/grid.js"]
-external grid: ReasonReact.reactClass = "default";
+external _grid: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/hard-drive.js"]
-external hardDrive: ReasonReact.reactClass = "default";
+external _hardDrive: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/hash.js"]
-external hash: ReasonReact.reactClass = "default";
+external _hash: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/headphones.js"]
-external headphones: ReasonReact.reactClass = "default";
+external _headphones: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/heart.js"]
-external heart: ReasonReact.reactClass = "default";
+external _heart: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/help-circle.js"]
-external helpCircle: ReasonReact.reactClass = "default";
+external _helpCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/home.js"]
-external home: ReasonReact.reactClass = "default";
+external _home: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/image.js"]
-external image: ReasonReact.reactClass = "default";
+external _image: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/inbox.js"]
-external inbox: ReasonReact.reactClass = "default";
+external _inbox: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/info.js"]
-external info: ReasonReact.reactClass = "default";
+external _info: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/instagram.js"]
-external instagram: ReasonReact.reactClass = "default";
+external _instagram: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/italic.js"]
-external italic: ReasonReact.reactClass = "default";
+external _italic: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/layers.js"]
-external layers: ReasonReact.reactClass = "default";
+external _layers: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/layout.js"]
-external layout: ReasonReact.reactClass = "default";
+external _layout: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/life-buoy.js"]
-external lifeBuoy: ReasonReact.reactClass = "default";
+external _lifeBuoy: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/link-2.js"]
-external link2: ReasonReact.reactClass = "default";
+external _link2: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/link.js"]
-external link: ReasonReact.reactClass = "default";
+external _link: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/linkedin.js"]
-external linkedin: ReasonReact.reactClass = "default";
+external _linkedin: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/list.js"]
-external list: ReasonReact.reactClass = "default";
+external _list: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/loader.js"]
-external loader: ReasonReact.reactClass = "default";
+external _loader: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/lock.js"]
-external lock: ReasonReact.reactClass = "default";
+external _lock: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/log-in.js"]
-external logIn: ReasonReact.reactClass = "default";
+external _logIn: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/log-out.js"]
-external logOut: ReasonReact.reactClass = "default";
+external _logOut: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/mail.js"]
-external mail: ReasonReact.reactClass = "default";
+external _mail: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/map-pin.js"]
-external mapPin: ReasonReact.reactClass = "default";
+external _mapPin: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/map.js"]
-external map: ReasonReact.reactClass = "default";
+external _map: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/maximize-2.js"]
-external maximize2: ReasonReact.reactClass = "default";
+external _maximize2: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/maximize.js"]
-external maximize: ReasonReact.reactClass = "default";
+external _maximize: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/menu.js"]
-external menu: ReasonReact.reactClass = "default";
+external _menu: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/message-circle.js"]
-external messageCircle: ReasonReact.reactClass = "default";
+external _messageCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/message-square.js"]
-external messageSquare: ReasonReact.reactClass = "default";
+external _messageSquare: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/mic-off.js"]
-external micOff: ReasonReact.reactClass = "default";
+external _micOff: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/mic.js"]
-external mic: ReasonReact.reactClass = "default";
+external _mic: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/minimize-2.js"]
-external minimize2: ReasonReact.reactClass = "default";
+external _minimize2: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/minimize.js"]
-external minimize: ReasonReact.reactClass = "default";
+external _minimize: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/minus-circle.js"]
-external minusCircle: ReasonReact.reactClass = "default";
+external _minusCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/minus-square.js"]
-external minusSquare: ReasonReact.reactClass = "default";
+external _minusSquare: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/minus.js"]
-external minus: ReasonReact.reactClass = "default";
+external _minus: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/monitor.js"]
-external monitor: ReasonReact.reactClass = "default";
+external _monitor: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/moon.js"]
-external moon: ReasonReact.reactClass = "default";
+external _moon: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/more-horizontal.js"]
-external moreHorizontal: ReasonReact.reactClass = "default";
+external _moreHorizontal: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/more-vertical.js"]
-external moreVertical: ReasonReact.reactClass = "default";
+external _moreVertical: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/move.js"]
-external move: ReasonReact.reactClass = "default";
+external _move: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/music.js"]
-external music: ReasonReact.reactClass = "default";
+external _music: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/navigation-2.js"]
-external navigation2: ReasonReact.reactClass = "default";
+external _navigation2: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/navigation.js"]
-external navigation: ReasonReact.reactClass = "default";
+external _navigation: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/octagon.js"]
-external octagon: ReasonReact.reactClass = "default";
+external _octagon: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/package.js"]
-external package: ReasonReact.reactClass = "default";
+external _package: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/paperclip.js"]
-external paperclip: ReasonReact.reactClass = "default";
+external _paperclip: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/pause-circle.js"]
-external pauseCircle: ReasonReact.reactClass = "default";
+external _pauseCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/pause.js"]
-external pause: ReasonReact.reactClass = "default";
+external _pause: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/percent.js"]
-external percent: ReasonReact.reactClass = "default";
+external _percent: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/phone-call.js"]
-external phoneCall: ReasonReact.reactClass = "default";
+external _phoneCall: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/phone-forwarded.js"]
-external phoneForwarded: ReasonReact.reactClass = "default";
+external _phoneForwarded: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/phone-incoming.js"]
-external phoneIncoming: ReasonReact.reactClass = "default";
+external _phoneIncoming: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/phone-missed.js"]
-external phoneMissed: ReasonReact.reactClass = "default";
+external _phoneMissed: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/phone-off.js"]
-external phoneOff: ReasonReact.reactClass = "default";
+external _phoneOff: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/phone-outgoing.js"]
-external phoneOutgoing: ReasonReact.reactClass = "default";
+external _phoneOutgoing: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/phone.js"]
-external phone: ReasonReact.reactClass = "default";
+external _phone: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/pie-chart.js"]
-external pieChart: ReasonReact.reactClass = "default";
+external _pieChart: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/play-circle.js"]
-external playCircle: ReasonReact.reactClass = "default";
+external _playCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/play.js"]
-external play: ReasonReact.reactClass = "default";
+external _play: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/plus-circle.js"]
-external plusCircle: ReasonReact.reactClass = "default";
+external _plusCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/plus-square.js"]
-external plusSquare: ReasonReact.reactClass = "default";
+external _plusSquare: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/plus.js"]
-external plus: ReasonReact.reactClass = "default";
+external _plus: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/pocket.js"]
-external pocket: ReasonReact.reactClass = "default";
+external _pocket: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/power.js"]
-external power: ReasonReact.reactClass = "default";
+external _power: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/printer.js"]
-external printer: ReasonReact.reactClass = "default";
+external _printer: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/radio.js"]
-external radio: ReasonReact.reactClass = "default";
+external _radio: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/refresh-ccw.js"]
-external refreshCcw: ReasonReact.reactClass = "default";
+external _refreshCcw: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/refresh-cw.js"]
-external refreshCw: ReasonReact.reactClass = "default";
+external _refreshCw: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/repeat.js"]
-external repeat: ReasonReact.reactClass = "default";
+external _repeat: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/rewind.js"]
-external rewind: ReasonReact.reactClass = "default";
+external _rewind: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/rotate-ccw.js"]
-external rotateCcw: ReasonReact.reactClass = "default";
+external _rotateCcw: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/rotate-cw.js"]
-external rotateCw: ReasonReact.reactClass = "default";
+external _rotateCw: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/rss.js"]
-external rss: ReasonReact.reactClass = "default";
+external _rss: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/save.js"]
-external save: ReasonReact.reactClass = "default";
+external _save: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/scissors.js"]
-external scissors: ReasonReact.reactClass = "default";
+external _scissors: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/search.js"]
-external search: ReasonReact.reactClass = "default";
+external _search: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/send.js"]
-external send: ReasonReact.reactClass = "default";
+external _send: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/server.js"]
-external server: ReasonReact.reactClass = "default";
+external _server: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/settings.js"]
-external settings: ReasonReact.reactClass = "default";
+external _settings: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/share-2.js"]
-external share2: ReasonReact.reactClass = "default";
+external _share2: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/share.js"]
-external share: ReasonReact.reactClass = "default";
+external _share: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/shield-off.js"]
-external shieldOff: ReasonReact.reactClass = "default";
+external _shieldOff: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/shield.js"]
-external shield: ReasonReact.reactClass = "default";
+external _shield: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/shopping-bag.js"]
-external shoppingBag: ReasonReact.reactClass = "default";
+external _shoppingBag: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/shopping-cart.js"]
-external shoppingCart: ReasonReact.reactClass = "default";
+external _shoppingCart: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/shuffle.js"]
-external shuffle: ReasonReact.reactClass = "default";
+external _shuffle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/sidebar.js"]
-external sidebar: ReasonReact.reactClass = "default";
+external _sidebar: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/skip-back.js"]
-external skipBack: ReasonReact.reactClass = "default";
+external _skipBack: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/skip-forward.js"]
-external skipForward: ReasonReact.reactClass = "default";
+external _skipForward: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/slack.js"]
-external slack: ReasonReact.reactClass = "default";
+external _slack: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/slash.js"]
-external slash: ReasonReact.reactClass = "default";
+external _slash: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/sliders.js"]
-external sliders: ReasonReact.reactClass = "default";
+external _sliders: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/smartphone.js"]
-external smartphone: ReasonReact.reactClass = "default";
+external _smartphone: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/speaker.js"]
-external speaker: ReasonReact.reactClass = "default";
+external _speaker: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/square.js"]
-external square: ReasonReact.reactClass = "default";
+external _square: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/star.js"]
-external star: ReasonReact.reactClass = "default";
+external _star: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/stop-circle.js"]
-external stopCircle: ReasonReact.reactClass = "default";
+external _stopCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/sun.js"]
-external sun: ReasonReact.reactClass = "default";
+external _sun: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/sunrise.js"]
-external sunrise: ReasonReact.reactClass = "default";
+external _sunrise: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/sunset.js"]
-external sunset: ReasonReact.reactClass = "default";
+external _sunset: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/tablet.js"]
-external tablet: ReasonReact.reactClass = "default";
+external _tablet: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/tag.js"]
-external tag: ReasonReact.reactClass = "default";
+external _tag: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/target.js"]
-external target: ReasonReact.reactClass = "default";
+external _target: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/terminal.js"]
-external terminal: ReasonReact.reactClass = "default";
+external _terminal: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/thermometer.js"]
-external thermometer: ReasonReact.reactClass = "default";
+external _thermometer: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/thumbs-down.js"]
-external thumbsDown: ReasonReact.reactClass = "default";
+external _thumbsDown: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/thumbs-up.js"]
-external thumbsUp: ReasonReact.reactClass = "default";
+external _thumbsUp: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/toggle-left.js"]
-external toggleLeft: ReasonReact.reactClass = "default";
+external _toggleLeft: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/toggle-right.js"]
-external toggleRight: ReasonReact.reactClass = "default";
+external _toggleRight: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/trash-2.js"]
-external trash2: ReasonReact.reactClass = "default";
+external _trash2: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/trash.js"]
-external trash: ReasonReact.reactClass = "default";
+external _trash: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/trending-down.js"]
-external trendingDown: ReasonReact.reactClass = "default";
+external _trendingDown: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/trending-up.js"]
-external trendingUp: ReasonReact.reactClass = "default";
+external _trendingUp: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/triangle.js"]
-external triangle: ReasonReact.reactClass = "default";
+external _triangle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/truck.js"]
-external truck: ReasonReact.reactClass = "default";
+external _truck: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/tv.js"]
-external tv: ReasonReact.reactClass = "default";
+external _tv: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/twitter.js"]
-external twitter: ReasonReact.reactClass = "default";
+external _twitter: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/type.js"]
-external typpe: ReasonReact.reactClass = "default";
+external _typpe: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/umbrella.js"]
-external umbrella: ReasonReact.reactClass = "default";
+external _umbrella: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/underline.js"]
-external underline: ReasonReact.reactClass = "default";
+external _underline: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/unlock.js"]
-external unlock: ReasonReact.reactClass = "default";
+external _unlock: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/upload-cloud.js"]
-external uploadCloud: ReasonReact.reactClass = "default";
+external _uploadCloud: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/upload.js"]
-external upload: ReasonReact.reactClass = "default";
+external _upload: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/user-check.js"]
-external userCheck: ReasonReact.reactClass = "default";
+external _userCheck: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/user-minus.js"]
-external userMinus: ReasonReact.reactClass = "default";
+external _userMinus: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/user-plus.js"]
-external userPlus: ReasonReact.reactClass = "default";
+external _userPlus: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/user-x.js"]
-external userX: ReasonReact.reactClass = "default";
+external _userX: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/user.js"]
-external user: ReasonReact.reactClass = "default";
+external _user: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/users.js"]
-external users: ReasonReact.reactClass = "default";
+external _users: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/video-off.js"]
-external videoOff: ReasonReact.reactClass = "default";
+external _videoOff: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/video.js"]
-external video: ReasonReact.reactClass = "default";
+external _video: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/voicemail.js"]
-external voicemail: ReasonReact.reactClass = "default";
+external _voicemail: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/volume-1.js"]
-external volume1: ReasonReact.reactClass = "default";
+external _volume1: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/volume-2.js"]
-external volume2: ReasonReact.reactClass = "default";
+external _volume2: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/volume-x.js"]
-external volumeX: ReasonReact.reactClass = "default";
+external _volumeX: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/volume.js"]
-external volume: ReasonReact.reactClass = "default";
+external _volume: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/watch.js"]
-external watch: ReasonReact.reactClass = "default";
+external _watch: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/wifi-off.js"]
-external wifiOff: ReasonReact.reactClass = "default";
+external _wifiOff: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/wifi.js"]
-external wifi: ReasonReact.reactClass = "default";
+external _wifi: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/wind.js"]
-external wind: ReasonReact.reactClass = "default";
+external _wind: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/x-circle.js"]
-external xCircle: ReasonReact.reactClass = "default";
+external _xCircle: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/x-square.js"]
-external xSquare: ReasonReact.reactClass = "default";
+external _xSquare: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/x.js"]
-external x: ReasonReact.reactClass = "default";
+external _x: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/youtube.js"]
-external youtube: ReasonReact.reactClass = "default";
+external _youtube: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/zap-off.js"]
-external zapOff: ReasonReact.reactClass = "default";
+external _zapOff: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/zap.js"]
-external zap: ReasonReact.reactClass = "default";
+external _zap: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/zoom-in.js"]
-external zoomIn: ReasonReact.reactClass = "default";
+external _zoomIn: ReasonReact.reactClass = "default";
 [@bs.module "react-feather/dist/icons/zoom-out.js"]
-external zoomOut: ReasonReact.reactClass = "default";
-let featherNotFound = ReasonReact.statelessComponent("FeatherNotFound");
+external _zoomOut: ReasonReact.reactClass = "default";
+let _iconMap = Js.Dict.empty();
+let _component = ReasonReact.statelessComponent("FeatherNotFound");
+
+let activity = "activity";
+let airplay = "airplay";
+let alertCircle = "alertCircle";
+let alertOctagon = "alertOctagon";
+let alertTriangle = "alertTriangle";
+let alignCenter = "alignCenter";
+let alignJustify = "alignJustify";
+let alignLeft = "alignLeft";
+let alignRight = "alignRight";
+let anchor = "anchor";
+let aperture = "aperture";
+let archive = "archive";
+let arrowDownCircle = "arrowDownCircle";
+let arrowDownLeft = "arrowDownLeft";
+let arrowDownRight = "arrowDownRight";
+let arrowDown = "arrowDown";
+let arrowLeftCircle = "arrowLeftCircle";
+let arrowLeft = "arrowLeft";
+let arrowRightCircle = "arrowRightCircle";
+let arrowRight = "arrowRight";
+let arrowUpCircle = "arrowUpCircle";
+let arrowUpLeft = "arrowUpLeft";
+let arrowUpRight = "arrowUpRight";
+let arrowUp = "arrowUp";
+let atSign = "atSign";
+let award = "award";
+let barChart2 = "barChart2";
+let barChart = "barChart";
+let batteryCharging = "batteryCharging";
+let battery = "battery";
+let bellOff = "bellOff";
+let bell = "bell";
+let bluetooth = "bluetooth";
+let bold = "bold";
+let bookOpen = "bookOpen";
+let book = "book";
+let bookmark = "bookmark";
+let box = "box";
+let briefcase = "briefcase";
+let calendar = "calendar";
+let cameraOff = "cameraOff";
+let camera = "camera";
+let cast = "cast";
+let checkCircle = "checkCircle";
+let checkSquare = "checkSquare";
+let check = "check";
+let chevronDown = "chevronDown";
+let chevronLeft = "chevronLeft";
+let chevronRight = "chevronRight";
+let chevronUp = "chevronUp";
+let chevronsDown = "chevronsDown";
+let chevronsLeft = "chevronsLeft";
+let chevronsRight = "chevronsRight";
+let chevronsUp = "chevronsUp";
+let chrome = "chrome";
+let circle = "circle";
+let clipboard = "clipboard";
+let clock = "clock";
+let cloudDrizzle = "cloudDrizzle";
+let cloudLightning = "cloudLightning";
+let cloudOff = "cloudOff";
+let cloudRain = "cloudRain";
+let cloudSnow = "cloudSnow";
+let cloud = "cloud";
+let code = "code";
+let codepen = "codepen";
+let command = "command";
+let compass = "compass";
+let copy = "copy";
+let cornerDownLeft = "cornerDownLeft";
+let cornerDownRight = "cornerDownRight";
+let cornerLeftDown = "cornerLeftDown";
+let cornerLeftUp = "cornerLeftUp";
+let cornerRightDown = "cornerRightDown";
+let cornerRightUp = "cornerRightUp";
+let cornerUpLeft = "cornerUpLeft";
+let cornerUpRight = "cornerUpRight";
+let cpu = "cpu";
+let creditCard = "creditCard";
+let crop = "crop";
+let crosshair = "crosshair";
+let database = "database";
+let delete = "delete";
+let disc = "disc";
+let dollarSign = "dollarSign";
+let downloadCloud = "downloadCloud";
+let download = "download";
+let droplet = "droplet";
+let edit2 = "edit2";
+let edit3 = "edit3";
+let edit = "edit";
+let externalLink = "externalLink";
+let eyeOff = "eyeOff";
+let eye = "eye";
+let facebook = "facebook";
+let fastForward = "fastForward";
+let feather = "feather";
+let fileMinus = "fileMinus";
+let filePlus = "filePlus";
+let fileText = "fileText";
+let file = "file";
+let film = "film";
+let filter = "filter";
+let flag = "flag";
+let folderMinus = "folderMinus";
+let folderPlus = "folderPlus";
+let folder = "folder";
+let gift = "gift";
+let gitBranch = "gitBranch";
+let gitCommit = "gitCommit";
+let gitMerge = "gitMerge";
+let gitPullRequest = "gitPullRequest";
+let github = "github";
+let gitlab = "gitlab";
+let globe = "globe";
+let grid = "grid";
+let hardDrive = "hardDrive";
+let hash = "hash";
+let headphones = "headphones";
+let heart = "heart";
+let helpCircle = "helpCircle";
+let home = "home";
+let image = "image";
+let inbox = "inbox";
+let info = "info";
+let instagram = "instagram";
+let italic = "italic";
+let layers = "layers";
+let layout = "layout";
+let lifeBuoy = "lifeBuoy";
+let link2 = "link2";
+let link = "link";
+let linkedin = "linkedin";
+let list = "list";
+let loader = "loader";
+let lock = "lock";
+let logIn = "logIn";
+let logOut = "logOut";
+let mail = "mail";
+let mapPin = "mapPin";
+let map = "map";
+let maximize2 = "maximize2";
+let maximize = "maximize";
+let menu = "menu";
+let messageCircle = "messageCircle";
+let messageSquare = "messageSquare";
+let micOff = "micOff";
+let mic = "mic";
+let minimize2 = "minimize2";
+let minimize = "minimize";
+let minusCircle = "minusCircle";
+let minusSquare = "minusSquare";
+let minus = "minus";
+let monitor = "monitor";
+let moon = "moon";
+let moreHorizontal = "moreHorizontal";
+let moreVertical = "moreVertical";
+let move = "move";
+let music = "music";
+let navigation2 = "navigation2";
+let navigation = "navigation";
+let octagon = "octagon";
+let package = "package";
+let paperclip = "paperclip";
+let pauseCircle = "pauseCircle";
+let pause = "pause";
+let percent = "percent";
+let phoneCall = "phoneCall";
+let phoneForwarded = "phoneForwarded";
+let phoneIncoming = "phoneIncoming";
+let phoneMissed = "phoneMissed";
+let phoneOff = "phoneOff";
+let phoneOutgoing = "phoneOutgoing";
+let phone = "phone";
+let pieChart = "pieChart";
+let playCircle = "playCircle";
+let play = "play";
+let plusCircle = "plusCircle";
+let plusSquare = "plusSquare";
+let plus = "plus";
+let pocket = "pocket";
+let power = "power";
+let printer = "printer";
+let radio = "radio";
+let refreshCcw = "refreshCcw";
+let refreshCw = "refreshCw";
+let repeat = "repeat";
+let rewind = "rewind";
+let rotateCcw = "rotateCcw";
+let rotateCw = "rotateCw";
+let rss = "rss";
+let save = "save";
+let scissors = "scissors";
+let search = "search";
+let send = "send";
+let server = "server";
+let settings = "settings";
+let share2 = "share2";
+let share = "share";
+let shieldOff = "shieldOff";
+let shield = "shield";
+let shoppingBag = "shoppingBag";
+let shoppingCart = "shoppingCart";
+let shuffle = "shuffle";
+let sidebar = "sidebar";
+let skipBack = "skipBack";
+let skipForward = "skipForward";
+let slack = "slack";
+let slash = "slash";
+let sliders = "sliders";
+let smartphone = "smartphone";
+let speaker = "speaker";
+let square = "square";
+let star = "star";
+let stopCircle = "stopCircle";
+let sun = "sun";
+let sunrise = "sunrise";
+let sunset = "sunset";
+let tablet = "tablet";
+let tag = "tag";
+let target = "target";
+let terminal = "terminal";
+let thermometer = "thermometer";
+let thumbsDown = "thumbsDown";
+let thumbsUp = "thumbsUp";
+let toggleLeft = "toggleLeft";
+let toggleRight = "toggleRight";
+let trash2 = "trash2";
+let trash = "trash";
+let trendingDown = "trendingDown";
+let trendingUp = "trendingUp";
+let triangle = "triangle";
+let truck = "truck";
+let tv = "tv";
+let twitter = "twitter";
+let typpe = "typpe";
+let umbrella = "umbrella";
+let underline = "underline";
+let unlock = "unlock";
+let uploadCloud = "uploadCloud";
+let upload = "upload";
+let userCheck = "userCheck";
+let userMinus = "userMinus";
+let userPlus = "userPlus";
+let userX = "userX";
+let user = "user";
+let users = "users";
+let videoOff = "videoOff";
+let video = "video";
+let voicemail = "voicemail";
+let volume1 = "volume1";
+let volume2 = "volume2";
+let volumeX = "volumeX";
+let volume = "volume";
+let watch = "watch";
+let wifiOff = "wifiOff";
+let wifi = "wifi";
+let wind = "wind";
+let xCircle = "xCircle";
+let xSquare = "xSquare";
+let x = "x";
+let youtube = "youtube";
+let zapOff = "zapOff";
+let zap = "zap";
+let zoomIn = "zoomIn";
+let zoomOut = "zoomOut";
+Js.Dict.set(_iconMap, activity, _activity);
+Js.Dict.set(_iconMap, airplay, _airplay);
+Js.Dict.set(_iconMap, alertCircle, _alertCircle);
+Js.Dict.set(_iconMap, alertOctagon, _alertOctagon);
+Js.Dict.set(_iconMap, alertTriangle, _alertTriangle);
+Js.Dict.set(_iconMap, alignCenter, _alignCenter);
+Js.Dict.set(_iconMap, alignJustify, _alignJustify);
+Js.Dict.set(_iconMap, alignLeft, _alignLeft);
+Js.Dict.set(_iconMap, alignRight, _alignRight);
+Js.Dict.set(_iconMap, anchor, _anchor);
+Js.Dict.set(_iconMap, aperture, _aperture);
+Js.Dict.set(_iconMap, archive, _archive);
+Js.Dict.set(_iconMap, arrowDownCircle, _arrowDownCircle);
+Js.Dict.set(_iconMap, arrowDownLeft, _arrowDownLeft);
+Js.Dict.set(_iconMap, arrowDownRight, _arrowDownRight);
+Js.Dict.set(_iconMap, arrowDown, _arrowDown);
+Js.Dict.set(_iconMap, arrowLeftCircle, _arrowLeftCircle);
+Js.Dict.set(_iconMap, arrowLeft, _arrowLeft);
+Js.Dict.set(_iconMap, arrowRightCircle, _arrowRightCircle);
+Js.Dict.set(_iconMap, arrowRight, _arrowRight);
+Js.Dict.set(_iconMap, arrowUpCircle, _arrowUpCircle);
+Js.Dict.set(_iconMap, arrowUpLeft, _arrowUpLeft);
+Js.Dict.set(_iconMap, arrowUpRight, _arrowUpRight);
+Js.Dict.set(_iconMap, arrowUp, _arrowUp);
+Js.Dict.set(_iconMap, atSign, _atSign);
+Js.Dict.set(_iconMap, award, _award);
+Js.Dict.set(_iconMap, barChart2, _barChart2);
+Js.Dict.set(_iconMap, barChart, _barChart);
+Js.Dict.set(_iconMap, batteryCharging, _batteryCharging);
+Js.Dict.set(_iconMap, battery, _battery);
+Js.Dict.set(_iconMap, bellOff, _bellOff);
+Js.Dict.set(_iconMap, bell, _bell);
+Js.Dict.set(_iconMap, bluetooth, _bluetooth);
+Js.Dict.set(_iconMap, bold, _bold);
+Js.Dict.set(_iconMap, bookOpen, _bookOpen);
+Js.Dict.set(_iconMap, book, _book);
+Js.Dict.set(_iconMap, bookmark, _bookmark);
+Js.Dict.set(_iconMap, box, _box);
+Js.Dict.set(_iconMap, briefcase, _briefcase);
+Js.Dict.set(_iconMap, calendar, _calendar);
+Js.Dict.set(_iconMap, cameraOff, _cameraOff);
+Js.Dict.set(_iconMap, camera, _camera);
+Js.Dict.set(_iconMap, cast, _cast);
+Js.Dict.set(_iconMap, checkCircle, _checkCircle);
+Js.Dict.set(_iconMap, checkSquare, _checkSquare);
+Js.Dict.set(_iconMap, check, _check);
+Js.Dict.set(_iconMap, chevronDown, _chevronDown);
+Js.Dict.set(_iconMap, chevronLeft, _chevronLeft);
+Js.Dict.set(_iconMap, chevronRight, _chevronRight);
+Js.Dict.set(_iconMap, chevronUp, _chevronUp);
+Js.Dict.set(_iconMap, chevronsDown, _chevronsDown);
+Js.Dict.set(_iconMap, chevronsLeft, _chevronsLeft);
+Js.Dict.set(_iconMap, chevronsRight, _chevronsRight);
+Js.Dict.set(_iconMap, chevronsUp, _chevronsUp);
+Js.Dict.set(_iconMap, chrome, _chrome);
+Js.Dict.set(_iconMap, circle, _circle);
+Js.Dict.set(_iconMap, clipboard, _clipboard);
+Js.Dict.set(_iconMap, clock, _clock);
+Js.Dict.set(_iconMap, cloudDrizzle, _cloudDrizzle);
+Js.Dict.set(_iconMap, cloudLightning, _cloudLightning);
+Js.Dict.set(_iconMap, cloudOff, _cloudOff);
+Js.Dict.set(_iconMap, cloudRain, _cloudRain);
+Js.Dict.set(_iconMap, cloudSnow, _cloudSnow);
+Js.Dict.set(_iconMap, cloud, _cloud);
+Js.Dict.set(_iconMap, code, _code);
+Js.Dict.set(_iconMap, codepen, _codepen);
+Js.Dict.set(_iconMap, command, _command);
+Js.Dict.set(_iconMap, compass, _compass);
+Js.Dict.set(_iconMap, copy, _copy);
+Js.Dict.set(_iconMap, cornerDownLeft, _cornerDownLeft);
+Js.Dict.set(_iconMap, cornerDownRight, _cornerDownRight);
+Js.Dict.set(_iconMap, cornerLeftDown, _cornerLeftDown);
+Js.Dict.set(_iconMap, cornerLeftUp, _cornerLeftUp);
+Js.Dict.set(_iconMap, cornerRightDown, _cornerRightDown);
+Js.Dict.set(_iconMap, cornerRightUp, _cornerRightUp);
+Js.Dict.set(_iconMap, cornerUpLeft, _cornerUpLeft);
+Js.Dict.set(_iconMap, cornerUpRight, _cornerUpRight);
+Js.Dict.set(_iconMap, cpu, _cpu);
+Js.Dict.set(_iconMap, creditCard, _creditCard);
+Js.Dict.set(_iconMap, crop, _crop);
+Js.Dict.set(_iconMap, crosshair, _crosshair);
+Js.Dict.set(_iconMap, database, _database);
+Js.Dict.set(_iconMap, delete, _delete);
+Js.Dict.set(_iconMap, disc, _disc);
+Js.Dict.set(_iconMap, dollarSign, _dollarSign);
+Js.Dict.set(_iconMap, downloadCloud, _downloadCloud);
+Js.Dict.set(_iconMap, download, _download);
+Js.Dict.set(_iconMap, droplet, _droplet);
+Js.Dict.set(_iconMap, edit2, _edit2);
+Js.Dict.set(_iconMap, edit3, _edit3);
+Js.Dict.set(_iconMap, edit, _edit);
+Js.Dict.set(_iconMap, externalLink, _externalLink);
+Js.Dict.set(_iconMap, eyeOff, _eyeOff);
+Js.Dict.set(_iconMap, eye, _eye);
+Js.Dict.set(_iconMap, facebook, _facebook);
+Js.Dict.set(_iconMap, fastForward, _fastForward);
+Js.Dict.set(_iconMap, feather, _feather);
+Js.Dict.set(_iconMap, fileMinus, _fileMinus);
+Js.Dict.set(_iconMap, filePlus, _filePlus);
+Js.Dict.set(_iconMap, fileText, _fileText);
+Js.Dict.set(_iconMap, file, _file);
+Js.Dict.set(_iconMap, film, _film);
+Js.Dict.set(_iconMap, filter, _filter);
+Js.Dict.set(_iconMap, flag, _flag);
+Js.Dict.set(_iconMap, folderMinus, _folderMinus);
+Js.Dict.set(_iconMap, folderPlus, _folderPlus);
+Js.Dict.set(_iconMap, folder, _folder);
+Js.Dict.set(_iconMap, gift, _gift);
+Js.Dict.set(_iconMap, gitBranch, _gitBranch);
+Js.Dict.set(_iconMap, gitCommit, _gitCommit);
+Js.Dict.set(_iconMap, gitMerge, _gitMerge);
+Js.Dict.set(_iconMap, gitPullRequest, _gitPullRequest);
+Js.Dict.set(_iconMap, github, _github);
+Js.Dict.set(_iconMap, gitlab, _gitlab);
+Js.Dict.set(_iconMap, globe, _globe);
+Js.Dict.set(_iconMap, grid, _grid);
+Js.Dict.set(_iconMap, hardDrive, _hardDrive);
+Js.Dict.set(_iconMap, hash, _hash);
+Js.Dict.set(_iconMap, headphones, _headphones);
+Js.Dict.set(_iconMap, heart, _heart);
+Js.Dict.set(_iconMap, helpCircle, _helpCircle);
+Js.Dict.set(_iconMap, home, _home);
+Js.Dict.set(_iconMap, image, _image);
+Js.Dict.set(_iconMap, inbox, _inbox);
+Js.Dict.set(_iconMap, info, _info);
+Js.Dict.set(_iconMap, instagram, _instagram);
+Js.Dict.set(_iconMap, italic, _italic);
+Js.Dict.set(_iconMap, layers, _layers);
+Js.Dict.set(_iconMap, layout, _layout);
+Js.Dict.set(_iconMap, lifeBuoy, _lifeBuoy);
+Js.Dict.set(_iconMap, link2, _link2);
+Js.Dict.set(_iconMap, link, _link);
+Js.Dict.set(_iconMap, linkedin, _linkedin);
+Js.Dict.set(_iconMap, list, _list);
+Js.Dict.set(_iconMap, loader, _loader);
+Js.Dict.set(_iconMap, lock, _lock);
+Js.Dict.set(_iconMap, logIn, _logIn);
+Js.Dict.set(_iconMap, logOut, _logOut);
+Js.Dict.set(_iconMap, mail, _mail);
+Js.Dict.set(_iconMap, mapPin, _mapPin);
+Js.Dict.set(_iconMap, map, _map);
+Js.Dict.set(_iconMap, maximize2, _maximize2);
+Js.Dict.set(_iconMap, maximize, _maximize);
+Js.Dict.set(_iconMap, menu, _menu);
+Js.Dict.set(_iconMap, messageCircle, _messageCircle);
+Js.Dict.set(_iconMap, messageSquare, _messageSquare);
+Js.Dict.set(_iconMap, micOff, _micOff);
+Js.Dict.set(_iconMap, mic, _mic);
+Js.Dict.set(_iconMap, minimize2, _minimize2);
+Js.Dict.set(_iconMap, minimize, _minimize);
+Js.Dict.set(_iconMap, minusCircle, _minusCircle);
+Js.Dict.set(_iconMap, minusSquare, _minusSquare);
+Js.Dict.set(_iconMap, minus, _minus);
+Js.Dict.set(_iconMap, monitor, _monitor);
+Js.Dict.set(_iconMap, moon, _moon);
+Js.Dict.set(_iconMap, moreHorizontal, _moreHorizontal);
+Js.Dict.set(_iconMap, moreVertical, _moreVertical);
+Js.Dict.set(_iconMap, move, _move);
+Js.Dict.set(_iconMap, music, _music);
+Js.Dict.set(_iconMap, navigation2, _navigation2);
+Js.Dict.set(_iconMap, navigation, _navigation);
+Js.Dict.set(_iconMap, octagon, _octagon);
+Js.Dict.set(_iconMap, package, _package);
+Js.Dict.set(_iconMap, paperclip, _paperclip);
+Js.Dict.set(_iconMap, pauseCircle, _pauseCircle);
+Js.Dict.set(_iconMap, pause, _pause);
+Js.Dict.set(_iconMap, percent, _percent);
+Js.Dict.set(_iconMap, phoneCall, _phoneCall);
+Js.Dict.set(_iconMap, phoneForwarded, _phoneForwarded);
+Js.Dict.set(_iconMap, phoneIncoming, _phoneIncoming);
+Js.Dict.set(_iconMap, phoneMissed, _phoneMissed);
+Js.Dict.set(_iconMap, phoneOff, _phoneOff);
+Js.Dict.set(_iconMap, phoneOutgoing, _phoneOutgoing);
+Js.Dict.set(_iconMap, phone, _phone);
+Js.Dict.set(_iconMap, pieChart, _pieChart);
+Js.Dict.set(_iconMap, playCircle, _playCircle);
+Js.Dict.set(_iconMap, play, _play);
+Js.Dict.set(_iconMap, plusCircle, _plusCircle);
+Js.Dict.set(_iconMap, plusSquare, _plusSquare);
+Js.Dict.set(_iconMap, plus, _plus);
+Js.Dict.set(_iconMap, pocket, _pocket);
+Js.Dict.set(_iconMap, power, _power);
+Js.Dict.set(_iconMap, printer, _printer);
+Js.Dict.set(_iconMap, radio, _radio);
+Js.Dict.set(_iconMap, refreshCcw, _refreshCcw);
+Js.Dict.set(_iconMap, refreshCw, _refreshCw);
+Js.Dict.set(_iconMap, repeat, _repeat);
+Js.Dict.set(_iconMap, rewind, _rewind);
+Js.Dict.set(_iconMap, rotateCcw, _rotateCcw);
+Js.Dict.set(_iconMap, rotateCw, _rotateCw);
+Js.Dict.set(_iconMap, rss, _rss);
+Js.Dict.set(_iconMap, save, _save);
+Js.Dict.set(_iconMap, scissors, _scissors);
+Js.Dict.set(_iconMap, search, _search);
+Js.Dict.set(_iconMap, send, _send);
+Js.Dict.set(_iconMap, server, _server);
+Js.Dict.set(_iconMap, settings, _settings);
+Js.Dict.set(_iconMap, share2, _share2);
+Js.Dict.set(_iconMap, share, _share);
+Js.Dict.set(_iconMap, shieldOff, _shieldOff);
+Js.Dict.set(_iconMap, shield, _shield);
+Js.Dict.set(_iconMap, shoppingBag, _shoppingBag);
+Js.Dict.set(_iconMap, shoppingCart, _shoppingCart);
+Js.Dict.set(_iconMap, shuffle, _shuffle);
+Js.Dict.set(_iconMap, sidebar, _sidebar);
+Js.Dict.set(_iconMap, skipBack, _skipBack);
+Js.Dict.set(_iconMap, skipForward, _skipForward);
+Js.Dict.set(_iconMap, slack, _slack);
+Js.Dict.set(_iconMap, slash, _slash);
+Js.Dict.set(_iconMap, sliders, _sliders);
+Js.Dict.set(_iconMap, smartphone, _smartphone);
+Js.Dict.set(_iconMap, speaker, _speaker);
+Js.Dict.set(_iconMap, square, _square);
+Js.Dict.set(_iconMap, star, _star);
+Js.Dict.set(_iconMap, stopCircle, _stopCircle);
+Js.Dict.set(_iconMap, sun, _sun);
+Js.Dict.set(_iconMap, sunrise, _sunrise);
+Js.Dict.set(_iconMap, sunset, _sunset);
+Js.Dict.set(_iconMap, tablet, _tablet);
+Js.Dict.set(_iconMap, tag, _tag);
+Js.Dict.set(_iconMap, target, _target);
+Js.Dict.set(_iconMap, terminal, _terminal);
+Js.Dict.set(_iconMap, thermometer, _thermometer);
+Js.Dict.set(_iconMap, thumbsDown, _thumbsDown);
+Js.Dict.set(_iconMap, thumbsUp, _thumbsUp);
+Js.Dict.set(_iconMap, toggleLeft, _toggleLeft);
+Js.Dict.set(_iconMap, toggleRight, _toggleRight);
+Js.Dict.set(_iconMap, trash2, _trash2);
+Js.Dict.set(_iconMap, trash, _trash);
+Js.Dict.set(_iconMap, trendingDown, _trendingDown);
+Js.Dict.set(_iconMap, trendingUp, _trendingUp);
+Js.Dict.set(_iconMap, triangle, _triangle);
+Js.Dict.set(_iconMap, truck, _truck);
+Js.Dict.set(_iconMap, tv, _tv);
+Js.Dict.set(_iconMap, twitter, _twitter);
+Js.Dict.set(_iconMap, typpe, _typpe);
+Js.Dict.set(_iconMap, umbrella, _umbrella);
+Js.Dict.set(_iconMap, underline, _underline);
+Js.Dict.set(_iconMap, unlock, _unlock);
+Js.Dict.set(_iconMap, uploadCloud, _uploadCloud);
+Js.Dict.set(_iconMap, upload, _upload);
+Js.Dict.set(_iconMap, userCheck, _userCheck);
+Js.Dict.set(_iconMap, userMinus, _userMinus);
+Js.Dict.set(_iconMap, userPlus, _userPlus);
+Js.Dict.set(_iconMap, userX, _userX);
+Js.Dict.set(_iconMap, user, _user);
+Js.Dict.set(_iconMap, users, _users);
+Js.Dict.set(_iconMap, videoOff, _videoOff);
+Js.Dict.set(_iconMap, video, _video);
+Js.Dict.set(_iconMap, voicemail, _voicemail);
+Js.Dict.set(_iconMap, volume1, _volume1);
+Js.Dict.set(_iconMap, volume2, _volume2);
+Js.Dict.set(_iconMap, volumeX, _volumeX);
+Js.Dict.set(_iconMap, volume, _volume);
+Js.Dict.set(_iconMap, watch, _watch);
+Js.Dict.set(_iconMap, wifiOff, _wifiOff);
+Js.Dict.set(_iconMap, wifi, _wifi);
+Js.Dict.set(_iconMap, wind, _wind);
+Js.Dict.set(_iconMap, xCircle, _xCircle);
+Js.Dict.set(_iconMap, xSquare, _xSquare);
+Js.Dict.set(_iconMap, x, _x);
+Js.Dict.set(_iconMap, youtube, _youtube);
+Js.Dict.set(_iconMap, zapOff, _zapOff);
+Js.Dict.set(_iconMap, zap, _zap);
+Js.Dict.set(_iconMap, zoomIn, _zoomIn);
+Js.Dict.set(_iconMap, zoomOut, _zoomOut);
 
 [@bs.deriving abstract]
 type jsProps = {
   color: string,
   size: Js.nullable(string),
 };
+
+let featherIcons = Js.Dict.keys(_iconMap);
 
 let make = (~name: string, ~color: string, ~size=?, _children) => {
   let wrap = myJSReactClass =>
@@ -545,275 +1081,11 @@ let make = (~name: string, ~color: string, ~size=?, _children) => {
       ~props=jsProps(~color, ~size=Js.Nullable.fromOption(size)),
       _children,
     );
-  switch (name) {
-  | "activity" => wrap(activity)
-  | "airplay" => wrap(airplay)
-  | "alertCircle" => wrap(alertCircle)
-  | "alertOctagon" => wrap(alertOctagon)
-  | "alertTriangle" => wrap(alertTriangle)
-  | "alignCenter" => wrap(alignCenter)
-  | "alignJustify" => wrap(alignJustify)
-  | "alignLeft" => wrap(alignLeft)
-  | "alignRight" => wrap(alignRight)
-  | "anchor" => wrap(anchor)
-  | "aperture" => wrap(aperture)
-  | "archive" => wrap(archive)
-  | "arrowDownCircle" => wrap(arrowDownCircle)
-  | "arrowDownLeft" => wrap(arrowDownLeft)
-  | "arrowDownRight" => wrap(arrowDownRight)
-  | "arrowDown" => wrap(arrowDown)
-  | "arrowLeftCircle" => wrap(arrowLeftCircle)
-  | "arrowLeft" => wrap(arrowLeft)
-  | "arrowRightCircle" => wrap(arrowRightCircle)
-  | "arrowRight" => wrap(arrowRight)
-  | "arrowUpCircle" => wrap(arrowUpCircle)
-  | "arrowUpLeft" => wrap(arrowUpLeft)
-  | "arrowUpRight" => wrap(arrowUpRight)
-  | "arrowUp" => wrap(arrowUp)
-  | "atSign" => wrap(atSign)
-  | "award" => wrap(award)
-  | "barChart2" => wrap(barChart2)
-  | "barChart" => wrap(barChart)
-  | "batteryCharging" => wrap(batteryCharging)
-  | "battery" => wrap(battery)
-  | "bellOff" => wrap(bellOff)
-  | "bell" => wrap(bell)
-  | "bluetooth" => wrap(bluetooth)
-  | "bold" => wrap(bold)
-  | "bookOpen" => wrap(bookOpen)
-  | "book" => wrap(book)
-  | "bookmark" => wrap(bookmark)
-  | "box" => wrap(box)
-  | "briefcase" => wrap(briefcase)
-  | "calendar" => wrap(calendar)
-  | "cameraOff" => wrap(cameraOff)
-  | "camera" => wrap(camera)
-  | "cast" => wrap(cast)
-  | "checkCircle" => wrap(checkCircle)
-  | "checkSquare" => wrap(checkSquare)
-  | "check" => wrap(check)
-  | "chevronDown" => wrap(chevronDown)
-  | "chevronLeft" => wrap(chevronLeft)
-  | "chevronRight" => wrap(chevronRight)
-  | "chevronUp" => wrap(chevronUp)
-  | "chevronsDown" => wrap(chevronsDown)
-  | "chevronsLeft" => wrap(chevronsLeft)
-  | "chevronsRight" => wrap(chevronsRight)
-  | "chevronsUp" => wrap(chevronsUp)
-  | "chrome" => wrap(chrome)
-  | "circle" => wrap(circle)
-  | "clipboard" => wrap(clipboard)
-  | "clock" => wrap(clock)
-  | "cloudDrizzle" => wrap(cloudDrizzle)
-  | "cloudLightning" => wrap(cloudLightning)
-  | "cloudOff" => wrap(cloudOff)
-  | "cloudRain" => wrap(cloudRain)
-  | "cloudSnow" => wrap(cloudSnow)
-  | "cloud" => wrap(cloud)
-  | "code" => wrap(code)
-  | "codepen" => wrap(codepen)
-  | "command" => wrap(command)
-  | "compass" => wrap(compass)
-  | "copy" => wrap(copy)
-  | "cornerDownLeft" => wrap(cornerDownLeft)
-  | "cornerDownRight" => wrap(cornerDownRight)
-  | "cornerLeftDown" => wrap(cornerLeftDown)
-  | "cornerLeftUp" => wrap(cornerLeftUp)
-  | "cornerRightDown" => wrap(cornerRightDown)
-  | "cornerRightUp" => wrap(cornerRightUp)
-  | "cornerUpLeft" => wrap(cornerUpLeft)
-  | "cornerUpRight" => wrap(cornerUpRight)
-  | "cpu" => wrap(cpu)
-  | "creditCard" => wrap(creditCard)
-  | "crop" => wrap(crop)
-  | "crosshair" => wrap(crosshair)
-  | "database" => wrap(database)
-  | "delete" => wrap(delete)
-  | "disc" => wrap(disc)
-  | "dollarSign" => wrap(dollarSign)
-  | "downloadCloud" => wrap(downloadCloud)
-  | "download" => wrap(download)
-  | "droplet" => wrap(droplet)
-  | "edit2" => wrap(edit2)
-  | "edit3" => wrap(edit3)
-  | "edit" => wrap(edit)
-  | "externalLink" => wrap(externalLink)
-  | "eyeOff" => wrap(eyeOff)
-  | "eye" => wrap(eye)
-  | "facebook" => wrap(facebook)
-  | "fastForward" => wrap(fastForward)
-  | "feather" => wrap(feather)
-  | "fileMinus" => wrap(fileMinus)
-  | "filePlus" => wrap(filePlus)
-  | "fileText" => wrap(fileText)
-  | "file" => wrap(file)
-  | "film" => wrap(film)
-  | "filter" => wrap(filter)
-  | "flag" => wrap(flag)
-  | "folderMinus" => wrap(folderMinus)
-  | "folderPlus" => wrap(folderPlus)
-  | "folder" => wrap(folder)
-  | "gift" => wrap(gift)
-  | "gitBranch" => wrap(gitBranch)
-  | "gitCommit" => wrap(gitCommit)
-  | "gitMerge" => wrap(gitMerge)
-  | "gitPullRequest" => wrap(gitPullRequest)
-  | "github" => wrap(github)
-  | "gitlab" => wrap(gitlab)
-  | "globe" => wrap(globe)
-  | "grid" => wrap(grid)
-  | "hardDrive" => wrap(hardDrive)
-  | "hash" => wrap(hash)
-  | "headphones" => wrap(headphones)
-  | "heart" => wrap(heart)
-  | "helpCircle" => wrap(helpCircle)
-  | "home" => wrap(home)
-  | "image" => wrap(image)
-  | "inbox" => wrap(inbox)
-  | "info" => wrap(info)
-  | "instagram" => wrap(instagram)
-  | "italic" => wrap(italic)
-  | "layers" => wrap(layers)
-  | "layout" => wrap(layout)
-  | "lifeBuoy" => wrap(lifeBuoy)
-  | "link2" => wrap(link2)
-  | "link" => wrap(link)
-  | "linkedin" => wrap(linkedin)
-  | "list" => wrap(list)
-  | "loader" => wrap(loader)
-  | "lock" => wrap(lock)
-  | "logIn" => wrap(logIn)
-  | "logOut" => wrap(logOut)
-  | "mail" => wrap(mail)
-  | "mapPin" => wrap(mapPin)
-  | "map" => wrap(map)
-  | "maximize2" => wrap(maximize2)
-  | "maximize" => wrap(maximize)
-  | "menu" => wrap(menu)
-  | "messageCircle" => wrap(messageCircle)
-  | "messageSquare" => wrap(messageSquare)
-  | "micOff" => wrap(micOff)
-  | "mic" => wrap(mic)
-  | "minimize2" => wrap(minimize2)
-  | "minimize" => wrap(minimize)
-  | "minusCircle" => wrap(minusCircle)
-  | "minusSquare" => wrap(minusSquare)
-  | "minus" => wrap(minus)
-  | "monitor" => wrap(monitor)
-  | "moon" => wrap(moon)
-  | "moreHorizontal" => wrap(moreHorizontal)
-  | "moreVertical" => wrap(moreVertical)
-  | "move" => wrap(move)
-  | "music" => wrap(music)
-  | "navigation2" => wrap(navigation2)
-  | "navigation" => wrap(navigation)
-  | "octagon" => wrap(octagon)
-  | "package" => wrap(package)
-  | "paperclip" => wrap(paperclip)
-  | "pauseCircle" => wrap(pauseCircle)
-  | "pause" => wrap(pause)
-  | "percent" => wrap(percent)
-  | "phoneCall" => wrap(phoneCall)
-  | "phoneForwarded" => wrap(phoneForwarded)
-  | "phoneIncoming" => wrap(phoneIncoming)
-  | "phoneMissed" => wrap(phoneMissed)
-  | "phoneOff" => wrap(phoneOff)
-  | "phoneOutgoing" => wrap(phoneOutgoing)
-  | "phone" => wrap(phone)
-  | "pieChart" => wrap(pieChart)
-  | "playCircle" => wrap(playCircle)
-  | "play" => wrap(play)
-  | "plusCircle" => wrap(plusCircle)
-  | "plusSquare" => wrap(plusSquare)
-  | "plus" => wrap(plus)
-  | "pocket" => wrap(pocket)
-  | "power" => wrap(power)
-  | "printer" => wrap(printer)
-  | "radio" => wrap(radio)
-  | "refreshCcw" => wrap(refreshCcw)
-  | "refreshCw" => wrap(refreshCw)
-  | "repeat" => wrap(repeat)
-  | "rewind" => wrap(rewind)
-  | "rotateCcw" => wrap(rotateCcw)
-  | "rotateCw" => wrap(rotateCw)
-  | "rss" => wrap(rss)
-  | "save" => wrap(save)
-  | "scissors" => wrap(scissors)
-  | "search" => wrap(search)
-  | "send" => wrap(send)
-  | "server" => wrap(server)
-  | "settings" => wrap(settings)
-  | "share2" => wrap(share2)
-  | "share" => wrap(share)
-  | "shieldOff" => wrap(shieldOff)
-  | "shield" => wrap(shield)
-  | "shoppingBag" => wrap(shoppingBag)
-  | "shoppingCart" => wrap(shoppingCart)
-  | "shuffle" => wrap(shuffle)
-  | "sidebar" => wrap(sidebar)
-  | "skipBack" => wrap(skipBack)
-  | "skipForward" => wrap(skipForward)
-  | "slack" => wrap(slack)
-  | "slash" => wrap(slash)
-  | "sliders" => wrap(sliders)
-  | "smartphone" => wrap(smartphone)
-  | "speaker" => wrap(speaker)
-  | "square" => wrap(square)
-  | "star" => wrap(star)
-  | "stopCircle" => wrap(stopCircle)
-  | "sun" => wrap(sun)
-  | "sunrise" => wrap(sunrise)
-  | "sunset" => wrap(sunset)
-  | "tablet" => wrap(tablet)
-  | "tag" => wrap(tag)
-  | "target" => wrap(target)
-  | "terminal" => wrap(terminal)
-  | "thermometer" => wrap(thermometer)
-  | "thumbsDown" => wrap(thumbsDown)
-  | "thumbsUp" => wrap(thumbsUp)
-  | "toggleLeft" => wrap(toggleLeft)
-  | "toggleRight" => wrap(toggleRight)
-  | "trash2" => wrap(trash2)
-  | "trash" => wrap(trash)
-  | "trendingDown" => wrap(trendingDown)
-  | "trendingUp" => wrap(trendingUp)
-  | "triangle" => wrap(triangle)
-  | "truck" => wrap(truck)
-  | "tv" => wrap(tv)
-  | "twitter" => wrap(twitter)
-  | "typpe" => wrap(typpe)
-  | "umbrella" => wrap(umbrella)
-  | "underline" => wrap(underline)
-  | "unlock" => wrap(unlock)
-  | "uploadCloud" => wrap(uploadCloud)
-  | "upload" => wrap(upload)
-  | "userCheck" => wrap(userCheck)
-  | "userMinus" => wrap(userMinus)
-  | "userPlus" => wrap(userPlus)
-  | "userX" => wrap(userX)
-  | "user" => wrap(user)
-  | "users" => wrap(users)
-  | "videoOff" => wrap(videoOff)
-  | "video" => wrap(video)
-  | "voicemail" => wrap(voicemail)
-  | "volume1" => wrap(volume1)
-  | "volume2" => wrap(volume2)
-  | "volumeX" => wrap(volumeX)
-  | "volume" => wrap(volume)
-  | "watch" => wrap(watch)
-  | "wifiOff" => wrap(wifiOff)
-  | "wifi" => wrap(wifi)
-  | "wind" => wrap(wind)
-  | "xCircle" => wrap(xCircle)
-  | "xSquare" => wrap(xSquare)
-  | "x" => wrap(x)
-  | "youtube" => wrap(youtube)
-  | "zapOff" => wrap(zapOff)
-  | "zap" => wrap(zap)
-  | "zoomIn" => wrap(zoomIn)
-  | "zoomOut" => wrap(zoomOut)
-  | _ => {
-      ...featherNotFound,
+
+  switch (Js.Dict.get(_iconMap, name)) {
+  | Some(jsReactClass) => wrap(jsReactClass)
+  | None => {
+      ..._component,
       render: _ => <em> {ReasonReact.string("FeatherNotFound")} </em>,
     }
   };
