@@ -19,9 +19,7 @@ let make =
     };
     let iconColor =
       if (color === "") {
-        /* TODO currentColor => currentcolor */
-        isSvg ?
-          "currentColor" : "inherit";
+        "inherit";
       } else {
         color;
       };
@@ -37,7 +35,7 @@ let make =
     if (ligature) {
       <i style className=classNames> {ReasonReact.string(name)} </i>;
     } else if (isSvg) {
-      <span className=classNames>
+      <span style className=classNames>
         {ReasonReact.string({j|\u200B|j})}
         <Feather name size color />
       </span>;
