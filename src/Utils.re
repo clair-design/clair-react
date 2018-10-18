@@ -11,3 +11,16 @@ function (element) {
 }
   |}
 ];
+
+let fromNullableJsProps =
+    (prop: Js.nullable('a), defaultVal: 'b, f: 'a => 'b) =>
+  switch (Js.Nullable.toOption(prop)) {
+  | Some(str) => f(str)
+  | None => defaultVal
+  };
+
+let ensureChildren = (arr: Js.nullable(array('a))) =>
+  switch (Js.Nullable.toOption(arr)) {
+  | Some(children) => children
+  | None => [||]
+  };

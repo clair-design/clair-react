@@ -18,18 +18,9 @@ type jsProps = {
 };
 
 let default =
-  ReasonReact.wrapReasonForJs(
-    ~component,
-    jsProps => {
-      let size = Js.Nullable.toOption(jsProps->sizeGet);
-
-      make(
-        ~size=
-          switch (size) {
-          | None => Size.Medium
-          | Some(str) => Size.fromLiteral(str)
-          },
-        jsProps->childrenGet,
-      );
-    },
+  ReasonReact.wrapReasonForJs(~component, jsProps =>
+    make(
+      ~size=Size.fromNullableJsProps(jsProps->sizeGet),
+      jsProps->childrenGet,
+    )
   );

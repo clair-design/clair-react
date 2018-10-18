@@ -23,3 +23,6 @@ let toLiteral = (size: size) =>
   | Large => "lg"
   | ExtraLarge => "xl"
   };
+
+let fromNullableJsProps = (prop: Js.nullable(string)) =>
+    Utils.fromNullableJsProps(prop, Medium, fromLiteral)

@@ -1,3 +1,5 @@
+open Utils;
+
 type state = {btnRef: ref(option(Dom.element))};
 
 type action =
@@ -32,7 +34,7 @@ let make =
   didMount: self =>
     switch (self.state.btnRef^) {
     | None => ()
-    | Some(btn) => Utils.focusElement(btn)
+    | Some(btn) => focusElement(btn)
     },
   render: self => {
     let iconName = loading ? "loader" : icon;
@@ -118,18 +120,9 @@ let default =
   ReasonReact.wrapReasonForJs(
     ~component,
     jsProps => {
-      let size = Js.Nullable.toOption(jsProps->sizeGet);
-      let children =
-        switch (Js.Nullable.toOption(jsProps->childrenGet)) {
-        | None => [||]
-        | Some(children) => children
-        };
+      let children = ensureChildren(jsProps->childrenGet);
       make(
-        ~size=
-          switch (size) {
-          | None => Size.Medium
-          | Some(str) => Size.fromLiteral(str)
-          },
+        ~size=Size.fromNullableJsProps(jsProps->sizeGet),
         ~href=?Js.Nullable.toOption(jsProps->hrefGet),
         ~primary=?Js.Nullable.toOption(jsProps->primaryGet),
         ~success=?Js.Nullable.toOption(jsProps->successGet),

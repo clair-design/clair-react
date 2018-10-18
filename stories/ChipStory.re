@@ -79,7 +79,7 @@ storiesOf("Chip", _module)
         <Chip color=Color.Blue>
           <a href="https://twiter.com" target="_blank">
             {ReasonReact.string("twitter")}
-            <Icon name=Feather.arrowRight />
+            <Icon name=Feather.arrowRight color="#fff" />
           </a>
         </Chip>
       </Stage>

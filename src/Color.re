@@ -73,3 +73,6 @@ let presetColors = [|
   Dark,
   Black,
 |];
+
+let fromNullableJsProps = (prop: Js.nullable(string)) =>
+  Utils.fromNullableJsProps(prop, Color(""), fromLiteral)

@@ -1,10 +1,7 @@
+open Utils;
+
 let component = ReasonReact.statelessComponent("Chip");
 let emptyStyle = ReactDOMRe.Style.make();
-
-let wrapCloseHandler = (fn, e) => {
-  e |> ReactEvent.Synthetic.preventDefault;
-  fn(e);
-};
 
 let computeProps = (~color, ~size, ~closable) => {
   let isPresetColor = Color.isPresetColor(color);
@@ -34,7 +31,6 @@ let computeProps = (~color, ~size, ~closable) => {
   (classNames, styleObj);
 };
 
-type callback = ReactEvent.Mouse.t => unit;
 let make =
     (
       ~size: Size.size=Size.Medium,
@@ -68,24 +64,25 @@ let make =
       </div>,
   };
 };
-/*
- [@bs.deriving abstract]
- type jsProps = {
-   label: string,
-   size: Js.nullable(string),
-   color: Js.nullable(string),
-   closable: Js.nullable(bool),
-   onClose: Js.nullable(ReactEvent.Mouse.t => unit),
- };
 
- let default =
-   ReasonReact.wrapReasonForJs(~component, jsProps =>
-     make(
-       ~label=jsProps->labelGet,
-       ~size=?Js.Nullable.toOption(jsProps->sizeGet),
-       ~color=?Js.Nullable.toOption(jsProps->colorGet),
-       ~closable=?Js.Nullable.toOption(jsProps->closableGet),
-       ~onClose=?Js.Nullable.toOption(jsProps->onCloseGet),
-       [||],
-     )
-   ); */
+[@bs.deriving abstract]
+type jsProps = {
+  label: Js.nullable(string),
+  size: Js.nullable(string),
+  color: Js.nullable(string),
+  closable: Js.nullable(bool),
+  onClose: Js.nullable(ReactEvent.Mouse.t => unit),
+  children: Js.nullable(array(ReasonReact.reactElement)),
+};
+
+let default =
+  ReasonReact.wrapReasonForJs(~component, jsProps =>
+    make(
+      ~label=?Js.Nullable.toOption(jsProps->labelGet),
+      ~size=Size.fromNullableJsProps(jsProps->sizeGet),
+      ~color=Color.fromNullableJsProps(jsProps->colorGet),
+      ~closable=?Js.Nullable.toOption(jsProps->closableGet),
+      ~onClose=?Js.Nullable.toOption(jsProps->onCloseGet),
+      ensureChildren(jsProps->childrenGet),
+    )
+  );
