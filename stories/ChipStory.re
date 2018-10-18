@@ -3,22 +3,58 @@ open BsStorybook.Story;
 let _module = [%bs.raw "module"];
 [@bs.val] external alert: string => unit = "alert";
 
-let onClose = e => Js.log(e);
-let lists = Color.presetColors;
-let arr =
-  Array.map(
-    color =>
-      <Chip
-        label={Color.toLiteral(color)}
-        color
-        key={Color.toLiteral(color)}
-        onClose
-      />,
-    lists,
-  );
+module ChipClosabelDemo = {
+  type state = {closed: bool};
+
+  type action =
+    | Close
+    | Recover;
+
+  let component = ReasonReact.reducerComponent("ChipClosabelDemo");
+  let make = _children => {
+    ...component,
+    initialState: _ => {closed: false},
+    reducer: (action, _) =>
+      switch (action) {
+      | Close => ReasonReact.Update({closed: true})
+      | Recover => ReasonReact.Update({closed: false})
+      },
+    render: self =>
+      <Stage>
+        {
+          self.state.closed ?
+            ReasonReact.null :
+            <Chip
+              color=Color.Purple
+              closable=true
+              label="closea chip"
+              onClose={_ => self.send(Close)}
+            />
+        }
+      </Stage>,
+  };
+};
 
 storiesOf("Chip", _module)
-->(add("chip", () => <Stage> {ReasonReact.array(arr)} </Stage>))
+->(
+    add("chip", () =>
+      <Stage>
+        {
+          ReasonReact.array(
+            Array.map(
+              color =>
+                <Chip
+                  label={Color.toLiteral(color)}
+                  color
+                  key={Color.toLiteral(color)}
+                />,
+              Color.presetColors,
+            ),
+          )
+        }
+      </Stage>
+    )
+  )
 ->(
     add("size", () =>
       <Stage>
@@ -27,18 +63,7 @@ storiesOf("Chip", _module)
       </Stage>
     )
   )
-->(
-    add("close event", () =>
-      <Stage>
-        <Chip
-          color=Color.Purple
-          closable=true
-          label="closea chip"
-          onClose={_ => alert("Close")}
-        />
-      </Stage>
-    )
-  )
+->(add("close event", () => <ChipClosabelDemo />))
 ->(
     add("custom color", () =>
       <Stage>
@@ -53,9 +78,9 @@ storiesOf("Chip", _module)
       <Stage>
         <Chip color=Color.Blue>
           <a href="https://twiter.com" target="_blank">
-            <Icon name=Feather.twitter color="#fff" />
+            {ReasonReact.string("twitter")}
+            <Icon name=Feather.arrowRight />
           </a>
-          {ReasonReact.string("  twitter")}
         </Chip>
       </Stage>
     )
