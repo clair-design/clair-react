@@ -60,5 +60,5 @@ storiesOf('Icons In JavaScript', module)
       padding: '40px'
     }
 
-    return <Stage> <div style={style}> {icons} </div> </Stage>
+    return <Stage><div style={style}>{icons}</div></Stage>
   })
