@@ -16,7 +16,7 @@ class ChipClosabelDemo extends React.Component {
           : <Chip
             color='purple'
             closable
-            label='closea chip'
+            label='close chip'
             onClose={_ => this.setState({ closed: true })}
             />}
       </Stage>

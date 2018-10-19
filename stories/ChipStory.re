@@ -27,7 +27,7 @@ module ChipClosabelDemo = {
             <Chip
               color=Color.Purple
               closable=true
-              label="closea chip"
+              label="close chip"
               onClose={_ => self.send(Close)}
             />
         }
