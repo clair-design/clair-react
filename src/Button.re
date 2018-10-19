@@ -75,7 +75,7 @@ let make =
             <span> ..._children </span> : ReasonReact.null
         }
       </>;
-    let setBtnRef = (theRef, {ReasonReact.state}) =>
+    let setBtnRef = (theRef, {ReasonReact.state, _}) =>
       if (autofocus) {
         state.btnRef := Js.Nullable.toOption(theRef);
       };
